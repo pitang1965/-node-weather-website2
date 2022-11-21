@@ -1,6 +1,7 @@
-# node-weather-website
+# node-weather-website2
 Node.jsによる簡単な天気予報Webサイト
-Node.jsの学習のために作ったものです。
+以前、[Node.jsの学習のために作ったもの](https://github.com/pitang1965/node-weather-website)をHeroku無料プランが使えなくなる(2022-11-28)ことを踏まえて、変更中...
+
 ![天気予報](https://user-images.githubusercontent.com/47315420/93012424-44416200-f5db-11ea-992b-49cf9e40a948.gif)
 
 # DEMO
