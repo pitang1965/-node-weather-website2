@@ -5,14 +5,14 @@ Node.jsによる簡単な天気予報Webサイト
 ![天気予報](https://user-images.githubusercontent.com/47315420/93012424-44416200-f5db-11ea-992b-49cf9e40a948.gif)
 
 # DEMO
-https://pitang1965-weather-application.herokuapp.com/
+準備中...
 
 # Features
 Node.js 及び下記パッケージ/モジュールを使用しています。
-* [npm: env-cmd](https://www.npmjs.com/package/env-cmd)
+* [env-cmd](https://www.npmjs.com/package/env-cmd)
 * [Express](http://expressjs.com/)
-* [npm: hbs](https://www.npmjs.com/package/hbs)
-* [npm: request](https://www.npmjs.com/package/request)
+* [hbs](https://www.npmjs.com/package/hbs)
+* [request](https://www.npmjs.com/package/request)
  
 # Requirement
 以下のAPIアカウントを取得する必要があります。
@@ -20,7 +20,7 @@ Node.js 及び下記パッケージ/モジュールを使用しています。
 * [mapbox](https://www.mapbox.com/)
  
 # Installation
-ローカルで実行する場合は、config/dev.envファイルを作成し、以下を記述してください。
+ローカルで実行する場合は、.envファイルを作成し、以下を記述してください。
 ```
 PORT=3000
 DARKSKY_NET_API_KEY=https://api.darksky.net/forecast/********************************/
