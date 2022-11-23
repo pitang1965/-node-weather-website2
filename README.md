@@ -1,11 +1,7 @@
 # node-weather-website2
-Node.jsによる簡単な天気予報Webサイト
-以前、[Node.jsの学習のために作ったもの](https://github.com/pitang1965/node-weather-website)をHeroku無料プランが使えなくなる(2022-11-28)ことを踏まえて、変更中...
-
+* Node.jsによる簡単な天気予報Webサイト
+* 以下はHerokuにデプロイしたときのものですが、現在はrender.comにデプロイしています。
 ![天気予報](https://user-images.githubusercontent.com/47315420/93012424-44416200-f5db-11ea-992b-49cf9e40a948.gif)
-
-# DEMO
-準備中...
 
 # Features
 Node.js 及び下記パッケージ/モジュールを使用しています。
@@ -27,24 +23,18 @@ DARKSKY_NET_API_KEY=https://api.darksky.net/forecast/***************************
 MAPBOX_ACCESS_TOKEN=pk.*******************************************************************.**********************
 MAPBOX_GEOCODING_URL=https://api.mapbox.com/geocoding/v5/mapbox.places/
 ```
-package.jsonのdevスクリプトを次のように記述してください。
-```
-  "scripts": {
-    "dev": "env-cmd ./config/dev.env nodemon src/app.js -e js,hbs"
-  },
-```
-そしてターミナルから以下を実行します。 
-```
-dev run dev
-```
- 
+
 # Usage
 テキストボックスに「横浜市」などと入力して[検索]ボタンをクリックしてください。
  
 # Note
-npm: env-cmdのバージョンは8.0.2でテストしていますので、次でインストールしてください。
+render.comでの設定は次のようにしました。別途、Environment Variablesも設定する必要があります。
+
 ```
-npm i env-cmd@8.0.2
+Branch: main
+Root Directory: ./
+Build Command: $ npm install
+Start Comand: $ node src/app.js
 ```
  
 # Author
