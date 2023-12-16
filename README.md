@@ -1,5 +1,6 @@
 # node-weather-website2
 * Node.jsによる簡単な天気予報Webサイト
+* Dark Sky API のサポートは 2023 年 3 月 31 日に終了したので、現在動きません。
 * 以下はHerokuにデプロイしたときのものですが、現在はrender.comにデプロイしています。
 ![天気予報](https://user-images.githubusercontent.com/47315420/93012424-44416200-f5db-11ea-992b-49cf9e40a948.gif)
 
